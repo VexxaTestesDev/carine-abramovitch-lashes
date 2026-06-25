@@ -3,16 +3,16 @@ import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    text: "Meu olhar ficou incrível, parece maquiagem pronta todos os dias.",
-    name: "Mariana S.",
+    text: "Super indico, atenciosa, pontual, excelente profissional..",
+    name: "Lucélia R.",
   },
   {
-    text: "Atendimento impecável e resultado perfeito.",
-    name: "Juliana R.",
+    text: "Faço cílios com ela a mais de 2 anos e amo, ela entrega qualidade, durabilidade e um atendimento maravilhoso!",
+    name: "Dani D.",
   },
   {
-    text: "Não vivo mais sem. A Carine é maravilhosa!",
-    name: "Fernanda L.",
+    text: "Uma das melhores que eu já fiz! Atenciosa, educada e muito profissional.",
+    name: "Luiza M.",
   },
 ];
 

@@ -24,7 +24,16 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center gap-3 text-primary-foreground/60">
                 <MapPin className="w-4 h-4 text-gold" />
-                <span className="font-body text-xs">Localização a confirmar</span>
+                <p>
+                  <a
+                    href="https://share.google/P1J8R1L02h9kndnQB"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-body text-xs hover:text-gold transition-colors"
+                  >
+                    R. São Benedito, 163 - Centro, Caraguatatuba - SP <br/> 2° Andar
+                  </a>
+                </p>
               </div>
               <div className="flex items-center gap-3 text-primary-foreground/60">
                 <Clock className="w-4 h-4 text-gold" />
@@ -39,7 +48,7 @@ const Footer = () => {
             </h4>
             <div className="flex gap-4">
               <a
-                href="https://instagram.com/"
+                href="https://www.instagram.com/carinelashdesigner/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full border border-primary-foreground/20 flex items-center justify-center hover:border-gold transition-colors"
@@ -52,7 +61,7 @@ const Footer = () => {
 
         <div className="border-t border-primary-foreground/10 pt-8 text-center">
           <p className="font-body text-xs text-primary-foreground/30">
-            © {new Date().getFullYear()} Carine Abramovitch · Lash Designer
+            © 2026 Carine Lash Designer. Todos os direitos reservados. <br /> Desenvolvido por <a href="https://vexxa.com.br">Vexxa Desenvolvimento</a>
           </p>
         </div>
       </div>

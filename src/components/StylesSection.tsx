@@ -7,23 +7,77 @@ const WHATSAPP_BASE = "https://wa.me/5500000000000?text=";
 
 const styles = [
   {
-    title: "Fio a Fio",
-    description: "Efeito natural e delicado",
-    image: styleClassic,
-    msg: "Olá! Tenho interesse no estilo Fio a Fio.",
-  },
-  {
     title: "Volume Brasileiro",
-    description: "Equilíbrio perfeito entre natural e marcante",
-    image: styleVolume,
-    msg: "Olá! Tenho interesse no Volume Brasileiro.",
+    description: "Olhar mais denso, preto e marcante.",
+    image: styleClassic,
+    msg: "Olá! Tenho interesse no Volume Brasileiro."
   },
   {
-    title: "Volume Russo",
-    description: "Máximo volume e impacto no olhar",
-    image: styleRussian,
-    msg: "Olá! Tenho interesse no Volume Russo.",
+    title: "Efeito Molhado",
+    description: "Visual definido com efeito de máscara de cílios.",
+    image: styleClassic,
+    msg: "Olá! Tenho interesse no Efeito Molhado."
   },
+  {
+    title: "Brasileiro Marrom",
+    description: "Visual natural, sofisticado e leve.",
+    image: styleClassic,
+    msg: "Olá! Tenho interesse no Brasileiro Marrom."
+  },
+  {
+    title: "Fox Eyes",
+    description: "Efeito delineado e olhar sensual.",
+    image: styleClassic,
+    msg: "Olá! Tenho interesse no Fox Eyes."
+  },
+  {
+    title: "Efeito Sirena",
+    description: "Olhar alongado e elegante.",
+    image: styleVolume,
+    msg: "Olá! Tenho interesse no Efeito Sirena."
+  },
+  {
+    title: "Efeito Raposa",
+    description: "Olhar felino e extremamente marcante.",
+    image: styleVolume,
+    msg: "Olá! Tenho interesse no Efeito Raposa."
+  },
+  {
+    title: "Volume V8",
+    description: "Volume intenso e glamouroso.",
+    image: styleVolume,
+    msg: "Olá! Tenho interesse no Volume V8."
+  },
+  {
+    title: "Volume Egípcio",
+    description: "Volume sofisticado com leveza.",
+    image: styleVolume,
+    msg: "Olá! Tenho interesse no Volume Egípcio."
+  },
+  {
+    title: "Mega Volume",
+    description: "Máximo impacto e densidade.",
+    image: styleRussian,
+    msg: "Olá! Tenho interesse no Mega Volume."
+  },
+  {
+    title: "Clean Girl",
+    description: "Naturalidade e elegância.",
+    image: styleRussian,
+    msg: "Olá! Tenho interesse no Efeito Clean Girl."
+  },
+  {
+    title: "Efeito Hipnose",
+    description: "Olhar dramático e poderoso.",
+    image: styleRussian,
+    msg: "Olá! Tenho interesse no Efeito Hipnose."
+  },
+  {
+    title: "Mega Brasileiro",
+    description: "Volume avançado com alta retenção.",
+    image: styleRussian,
+    msg: "Olá! Tenho interesse no Mega Brasileiro."
+  }
 ];
 
 const StylesSection = () => {
@@ -45,7 +99,7 @@ const StylesSection = () => {
           </h2>
         </motion.div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {styles.map((style, i) => (
             <motion.div
               key={style.title}

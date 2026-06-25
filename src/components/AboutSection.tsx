@@ -39,7 +39,8 @@ const AboutSection = () => {
               Mais do que cílios, uma experiência de autoestima
             </h2>
             <p className="font-body text-sm text-muted-foreground leading-relaxed mb-6">
-              Meu objetivo é realçar sua beleza natural com técnicas modernas e um
+              Aqui sua autoestima é renovada! Meu objetivo é realçar sua beleza natural com 
+              técnicas modernas que duram mais de 30 Dias e um
               atendimento totalmente personalizado. Cada detalhe é pensado para
               entregar um resultado elegante, confortável e que combine
               perfeitamente com você.
